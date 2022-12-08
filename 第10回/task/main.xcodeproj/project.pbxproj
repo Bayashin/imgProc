@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA7F7574CFE1433B854434A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D40A6EEA76B4BEB94D01A72 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17E7B7951FCD4B8589FA5D99 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		495E0EAC8EA140C29B8F5BD5 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8438415A69F34A859E81F33E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8D40A6EEA76B4BEB94D01A72 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206F12DE21854E6CB6E6EFE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E26E8AE5914214B18B3CCC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0CFF153435664422BCA56D01 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D40A6EEA76B4BEB94D01A72 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		242A128455AF41BD9C68886B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6700454E155645F9990D4357 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				07E26E8AE5914214B18B3CCC /* CMake Rules */,
+				495E0EAC8EA140C29B8F5BD5 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C050C0F3A39F411B84C3A471 = {
+			isa = PBXGroup;
+			children = (
+				F866D21A17FB49E38A4A9ACE /* main */,
+				6700454E155645F9990D4357 /* ALL_BUILD */,
+				F890423AE3084B568B80E8FC /* Products */,
+				242A128455AF41BD9C68886B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F866D21A17FB49E38A4A9ACE /* main */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF153435664422BCA56D01 /* Source Files */,
+				8438415A69F34A859E81F33E /* CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		F890423AE3084B568B80E8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E7B7951FCD4B8589FA5D99 /* main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E061C9197144462983D5B5B /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B511D9DC809147EF92D29B55 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				7CD71D280FCF49FE97E97A56 /* Sources */,
+				206F12DE21854E6CB6E6EFE6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = main;
+			productName = main;
+			productReference = 17E7B7951FCD4B8589FA5D99 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C358A9F840084840AD0AD70F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = FEB09140ECA64C6F9AB5A709 /* Build configuration list for PBXProject "main" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C050C0F3A39F411B84C3A471;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E061C9197144462983D5B5B /* main */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD71D280FCF49FE97E97A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7F7574CFE1433B854434A8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18B62DA42EF54244B9A2428D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task/build";
+			};
+			name = MinSizeRel;
+		};
+		1FDB10FE4D5E499AAF7BC850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task/build";
+			};
+			name = Debug;
+		};
+		2EDD78598F45443099196001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/opt/homebrew/lib $(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libopencv_gapi.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stitching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_alphamat.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_aruco.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_barcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bgsegm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bioinspired.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ccalib.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dpm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_face.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_freetype.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_fuzzy.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_hfs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_img_hash.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_intensity_transform.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_line_descriptor.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_mcc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_quality.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rapid.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_reg.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rgbd.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_saliency.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_sfm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stereo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_structured_light.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_surface_matching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_tracking.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videostab.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_viz.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_wechat_qrcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xfeatures2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xobjdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xphoto.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_shape.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_highgui.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_datasets.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_plot.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_text.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ml.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_phase_unwrapping.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_optflow.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ximgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_video.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videoio.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgcodecs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_calib3d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_features2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_flann.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_photo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_core.4.5.5.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4 $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		45B8ACC91C194FD49BC108A8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A8D51ABFB9C1493BA6546951 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/opt/homebrew/lib $(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libopencv_gapi.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stitching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_alphamat.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_aruco.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_barcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bgsegm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bioinspired.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ccalib.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dpm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_face.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_freetype.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_fuzzy.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_hfs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_img_hash.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_intensity_transform.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_line_descriptor.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_mcc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_quality.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rapid.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_reg.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rgbd.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_saliency.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_sfm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stereo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_structured_light.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_surface_matching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_tracking.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videostab.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_viz.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_wechat_qrcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xfeatures2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xobjdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xphoto.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_shape.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_highgui.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_datasets.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_plot.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_text.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ml.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_phase_unwrapping.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_optflow.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ximgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_video.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videoio.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgcodecs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_calib3d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_features2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_flann.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_photo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_core.4.5.5.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4 $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		BF93E858E22B4C288A927A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/opt/homebrew/lib $(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libopencv_gapi.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stitching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_alphamat.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_aruco.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_barcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bgsegm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bioinspired.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ccalib.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dpm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_face.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_freetype.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_fuzzy.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_hfs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_img_hash.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_intensity_transform.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_line_descriptor.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_mcc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_quality.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rapid.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_reg.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rgbd.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_saliency.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_sfm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stereo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_structured_light.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_surface_matching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_tracking.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videostab.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_viz.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_wechat_qrcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xfeatures2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xobjdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xphoto.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_shape.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_highgui.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_datasets.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_plot.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_text.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ml.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_phase_unwrapping.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_optflow.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ximgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_video.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videoio.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgcodecs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_calib3d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_features2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_flann.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_photo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_core.4.5.5.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4 $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		E7D0F9D2170B4F5DAC620055 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/opt/homebrew/lib $(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/opt/homebrew/lib/libopencv_gapi.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stitching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_alphamat.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_aruco.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_barcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bgsegm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_bioinspired.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ccalib.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dpm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_face.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_freetype.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_fuzzy.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_hfs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_img_hash.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_intensity_transform.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_line_descriptor.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_mcc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_quality.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rapid.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_reg.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_rgbd.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_saliency.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_sfm.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_stereo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_structured_light.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_superres.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_surface_matching.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_tracking.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videostab.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_viz.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_wechat_qrcode.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xfeatures2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xobjdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_xphoto.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_shape.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_highgui.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_datasets.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_plot.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_text.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ml.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_phase_unwrapping.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_optflow.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_ximgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_video.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_videoio.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgcodecs.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_objdetect.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_calib3d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_dnn.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_features2d.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_flann.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_photo.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_imgproc.4.5.5.dylib,
+					/opt/homebrew/lib/libopencv_core.4.5.5.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4 $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		F7CDBAA3B1AC43A981444722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/k21099kk/src/imgProc/第10回/task/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B511D9DC809147EF92D29B55 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF93E858E22B4C288A927A91 /* Debug */,
+				2EDD78598F45443099196001 /* Release */,
+				A8D51ABFB9C1493BA6546951 /* MinSizeRel */,
+				E7D0F9D2170B4F5DAC620055 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FEB09140ECA64C6F9AB5A709 /* Build configuration list for PBXProject "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDB10FE4D5E499AAF7BC850 /* Debug */,
+				F7CDBAA3B1AC43A981444722 /* Release */,
+				18B62DA42EF54244B9A2428D /* MinSizeRel */,
+				45B8ACC91C194FD49BC108A8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C358A9F840084840AD0AD70F /* Project object */;
+}

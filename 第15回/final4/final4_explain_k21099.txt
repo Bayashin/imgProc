@@ -1,0 +1,14 @@
+1.テンプレート画像を配列で取得
+2.template_img[i]の右の画像の番号とその画像との色値の差の絶対値の総和を格納するためのlist[8][2]を作成、初期化
+3.template_img[i]の右隣の画像を特定
+	3.1:template_img[i]をBGR -> HSVで変換
+	3.2:i = jの時、template[i] = template[j]で条件似合わないのでスキップ
+	3.3:右隣候補であるtemplate_img[j]をBGR -> HSVで変換
+	3.4:int型differenceにtemplate_img[i]の右端とtemplate_img[j]の左端の色値(H)の差の絶対値の総和を格納する
+	3.5:現在listに格納されている値よりdifferenceが小さい時、入れ替え
+4.一番右の画像にも次の画像番号が格納されてしまっているので、一番右の画像を特定して値を設定
+	4.1:閾値を3000として、list[i][1] > 5000 の時、template_img[i]は一番右の画像であると判断
+	4.3:list[i][1]が5000を超えていないが一番右に位置するtemplate_img[i]を特定
+		4.3.1:i = jの時、template[i] = template[j]で条件似合わないのでスキップ
+		4.3.2:template_img[i]とtemplate_img[j]が同じ画像を右の画像に指定していて、かつ色値の差の絶対値の総和がlist[i]の方が大きい場合、template_img[i]が一番右の画像であると判断
+5.結果の出力

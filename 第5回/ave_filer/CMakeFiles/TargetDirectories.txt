@@ -1,0 +1,3 @@
+/Users/k21099kk/src/imgProc/第5回/ave_filer/CMakeFiles/main.dir
+/Users/k21099kk/src/imgProc/第5回/ave_filer/CMakeFiles/ALL_BUILD.dir
+/Users/k21099kk/src/imgProc/第5回/ave_filer/CMakeFiles/ZERO_CHECK.dir

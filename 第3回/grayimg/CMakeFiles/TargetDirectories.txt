@@ -1,0 +1,3 @@
+/Users/k21099kk/src/imgProc/第3回/grayimg/CMakeFiles/grayImg.dir
+/Users/k21099kk/src/imgProc/第3回/grayimg/CMakeFiles/ALL_BUILD.dir
+/Users/k21099kk/src/imgProc/第3回/grayimg/CMakeFiles/ZERO_CHECK.dir

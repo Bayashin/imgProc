@@ -1,0 +1,3 @@
+/Users/k21099kk/src/imgProc/第6回/prewitt/CMakeFiles/main.dir
+/Users/k21099kk/src/imgProc/第6回/prewitt/CMakeFiles/ALL_BUILD.dir
+/Users/k21099kk/src/imgProc/第6回/prewitt/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "b4a150c28b71bfec5114bf6fd13d9d0ef2278d12c755d5d1085d83b09870e4e2"
+    },
+    {
+      "guid" : "b4a150c28b71bfec5114bf6fd13d9d0e0479fe77f01cc10ffdef96ad69248647"
+    },
+    {
+      "guid" : "b4a150c28b71bfec5114bf6fd13d9d0e37eb2301df271a4fa25194905b1b2235"
+    }
+  ],
+  "containerPath" : "/Users/k21099kk/src/imgProc/第4回/task1_2/main.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/k21099kk/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/k21099kk/Library/Developer/Xcode/DerivedData/main-cjyrehyuhjfczferlyrjzsxogdpy/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/k21099kk/Library/Developer/Xcode/DerivedData/main-cjyrehyuhjfczferlyrjzsxogdpy/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

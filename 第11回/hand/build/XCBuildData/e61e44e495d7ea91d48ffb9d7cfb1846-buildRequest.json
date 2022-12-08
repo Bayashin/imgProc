@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "b4a150c28b71bfec5114bf6fd13d9d0e3e0adf76344d02143ee0d89b0a289a05"
+    },
+    {
+      "guid" : "b4a150c28b71bfec5114bf6fd13d9d0e47d81cec00a172280e7bbbe0f9cdb5a4"
+    },
+    {
+      "guid" : "b4a150c28b71bfec5114bf6fd13d9d0e926a725469c16df6cba1318082e3f7ac"
+    }
+  ],
+  "containerPath" : "/Users/k21099kk/src/imgProc/第11回/hand/main.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/k21099kk/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/k21099kk/Library/Developer/Xcode/DerivedData/main-asdwjmckyknzsifhyrfyhpteqahj/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/k21099kk/Library/Developer/Xcode/DerivedData/main-asdwjmckyknzsifhyrfyhpteqahj/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

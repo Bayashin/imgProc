@@ -1,0 +1,3 @@
+/Users/k21099kk/src/imgProc/第7回/threshold/CMakeFiles/main.dir
+/Users/k21099kk/src/imgProc/第7回/threshold/CMakeFiles/ALL_BUILD.dir
+/Users/k21099kk/src/imgProc/第7回/threshold/CMakeFiles/ZERO_CHECK.dir

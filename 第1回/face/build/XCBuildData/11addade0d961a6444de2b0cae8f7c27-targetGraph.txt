@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in 01_01_face_k21099, no dependencies
+01_01_face_k21099 in 01_01_face_k21099, depends on:
+ZERO_CHECK in 01_01_face_k21099 (explicit)
+ALL_BUILD in 01_01_face_k21099, depends on:
+01_01_face_k21099 in 01_01_face_k21099 (explicit)
+ZERO_CHECK in 01_01_face_k21099 (explicit)

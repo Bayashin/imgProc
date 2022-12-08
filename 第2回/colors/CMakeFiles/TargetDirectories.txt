@@ -1,0 +1,3 @@
+/Users/k21099kk/src/imgProc/第2回/colors/CMakeFiles/colors.dir
+/Users/k21099kk/src/imgProc/第2回/colors/CMakeFiles/ALL_BUILD.dir
+/Users/k21099kk/src/imgProc/第2回/colors/CMakeFiles/ZERO_CHECK.dir

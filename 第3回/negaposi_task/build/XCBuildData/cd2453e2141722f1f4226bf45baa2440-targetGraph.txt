@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in negaposi_task, no dependencies
+negaposi_task in negaposi_task, depends on:
+ZERO_CHECK in negaposi_task (explicit)
+ALL_BUILD in negaposi_task, depends on:
+negaposi_task in negaposi_task (explicit)
+ZERO_CHECK in negaposi_task (explicit)
